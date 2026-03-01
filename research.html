@@ -1,65 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Research - Quoc Vo</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    :root { --text:#111; --muted:#555; --border:#eee; --chip:#ddd; --card:#e9e9e9; }
+    body{
+      max-width: 980px;
+      margin: 32px auto;
+      padding: 0 18px;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+    }
+    .muted{ color: var(--muted); }
+    .nav a{ margin-right: 10px; text-decoration: none; }
+    .nav a:hover{ text-decoration: underline; }
+    hr{ border: none; border-top: 1px solid var(--border); margin: 22px 0; }
+    .lead{ font-size: 1.06rem; }
+    .tag{
+      display: inline-block;
+      padding: 2px 10px;
+      border: 1px solid var(--chip);
+      border-radius: 999px;
+      margin: 4px 6px 0 0;
+      font-size: 0.92rem;
+      white-space: nowrap;
+    }
+    .cards{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 10px;
+    }
+    .card{
+      border: 1px solid var(--card);
+      border-radius: 12px;
+      padding: 14px;
+      background: #fff;
+    }
+    .card h4{ margin: 6px 0 8px; }
+    img{ max-width: 100%; height: auto; border-radius: 12px; margin-top: 8px; }
+    @media (max-width: 820px){
+      .cards{ grid-template-columns: 1fr; }
+    }
+  </style>
 </head>
+
 <body>
-  <header>
-    <h1>Quoc Vo, PhD</h1>
-    <p>Research Instructor, Department of Medicine<br>University of Pittsburgh</p>
-    <nav>
-      <a href="about.html">About</a> |
-      <a href="research.html">Research</a> |
-      <a href="publications.html">Publications</a> |
-      <a href="posts.html">Posts</a> |
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+  <h1>Quoc Vo, PhD</h1>
+  <div class="muted">Research Instructor, Department of Medicine · University of Pittsburgh</div>
 
-  <main class="research-page">
-    <h2>Research</h2>
-      <h3>Soft Matter Physics</h3>
-      <p>Exploring droplet dynamics, wetting phenomena, and elastocapillary effects through experimental and theoretical approaches.</p>
-      <figure class="figure-row">
-        <div>
-            <img src="figures/capillary_waves.jpg" alt="Droplet dynamics illustration">
-            <figcaption class="image-caption">Figure 1: Capillary wave on the surface of a spreading droplet.</figcaption>
-        </div>
-        <div class="figure-text">
-           <h3>Project 1: Droplet Dynamics</h3>
-          <p>This project investigates how droplets behave on soft and patterned substrates under varying electric fields. 
-            Insights from this work are relevant to microfluidic and biomedical applications.</p>
-        </div>
-      </figure> 
+  <p class="nav">
+    <a href="/about.html">About</a> |
+    <a href="/research.html">Research</a> |
+    <a href="/publications.html">Publications</a> |
+    <a href="/posts.html">Posts</a> |
+    <a href="/contact.html">Contact</a>
+  </p>
 
-    <div class="research-subsection">
-      <h3>Organs-on-Chips</h3>
-      <p>Developing microfluidic platforms that mimic physiological environments to model diseases and test therapeutics.</p>
-      <figure class="figure-row">
-        <div>
-            <img src="figures/ECM_MV_Chip.jpg" alt="Droplet dynamics illustration">
-            <figcaption class="image-caption">Figure 2: ECM.MV.Chip for modeling pulmonary vascular diseases (PVDs).</figcaption>
-        </div>
-        <div class="figure-text">
-           <h3>Project 1: Development of ECM.MV.Chip for pulmonary vascular disease modelling.</h3>
-          <p>This project aims to develop Vascular-on-a-chip, so-called ECM.MV.Chip with circular cross-section, 
-            extracellular matrix embedded stromal cells for modeling pulmonary vascular diseases under shear flows. 
-            The work was featured on <a href="https://doi.org/10.1002/adfm.202470054" target="_blank">Advanced Functional Materials</a>.</p>
-        </div>
-      </figure> 
+  <h2>Research</h2>
+
+  <p class="lead">
+    My research asks: <strong>How can quantitative soft-matter physics and transport phenomena be used to build predictive models of human tissue function and disease?</strong>
+    I integrate interfacial mechanics, imaging/analysis, and microphysiological systems engineering to control geometry, flow, matrix mechanics, and transport—then connect these variables to inflammation, immune dynamics, and therapeutic response.
+  </p>
+
+  <div>
+    <span class="tag">Interfacial mechanics</span>
+    <span class="tag">Wetting & contact lines</span>
+    <span class="tag">Electrowetting / DEP</span>
+    <span class="tag">Organs-on-chips</span>
+    <span class="tag">Pulmonary & vascular mechanobiology</span>
+    <span class="tag">Down syndrome (T21)</span>
+    <span class="tag">Multi-omics + ML</span>
+  </div>
+
+  <hr />
+
+  <h3>Program structure</h3>
+  <ul>
+    <li><strong>Core science:</strong> mechanobiology at physiological interfaces — quantify how shear, curvature, matrix compliance, and transport shape tissue behavior.</li>
+    <li><strong>Translational engine:</strong> predictive pulmonary platforms for therapy discovery — autologous, immune-competent airway models coupled to functional readouts and multi-omic profiling.</li>
+  </ul>
+
+  <h3>Selected projects</h3>
+
+  <div class="cards">
+
+    <div class="card">
+      <h4>1) Electrowetting contact-line dynamics (PhD)</h4>
+      <p>
+        Quantified how microscopic contact-line dissipation controls macroscopic droplet transport under electrowetting,
+        providing design rules for robust droplet motion and vertical detachment in digital microfluidics.
+      </p>
+      <ul>
+        <li><strong>Methods:</strong> high-speed imaging, image analysis, modeling</li>
+        <li><strong>Representative outputs:</strong> PRL / PRE / Sci Rep</li>
+      </ul>
+      <p class="muted">Add figure: droplet transport/jumping + 1-line caption (optional).</p>
     </div>
 
-    <div class="research-subsection">
-      <h3>Biomedical Engineering Applications</h3>
-      <p>Integrating physics and engineering to advance diagnostic tools and therapeutic delivery systems.</p>
+    <div class="card">
+      <h4>2) Active elimination of lubricated air films (dielectrophoresis)</h4>
+      <p>
+        Developed a spatially periodic dielectrophoretic strategy to eliminate thin air films trapped between a liquid and a solid,
+        enabling bubble-free casting/coating and improving interfacial heat transfer performance.
+      </p>
+      <ul>
+        <li><strong>Methods:</strong> periodic DEP fields, high-speed + ultra-fast imaging</li>
+        <li><strong>Representative outputs:</strong> Nat. Commun. / Thermal Science & Engineering Progress</li>
+      </ul>
     </div>
-  </main>
 
-  <footer>
-    <p>&copy; 2025 Xuan Quoc Vo</p>
-  </footer>
+    <div class="card">
+      <h4>3) Fast wetting of soft solids: unsteady ridge formation</h4>
+      <p>
+        Built high-speed interferometric imaging to resolve early-time wetting ridge dynamics on compliant substrates,
+        revealing deformation anisotropy and its consequences for wetting kinetics and stick–slip behaviors.
+      </p>
+      <ul>
+        <li><strong>Methods:</strong> phase-shifting interferometry, ultra-high-speed imaging</li>
+        <li><strong>Representative outputs:</strong> JCIS + optical metrology/patent work</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h4>4) ECM.MV.Chip — matrix-embedded circular microvasculature-on-chip</h4>
+      <p>
+        Engineered a 3D circular, matrix-embedded microvasculature-on-chip that sustains physiologically relevant shear distributions,
+        enabling controlled studies of endothelial mechanotransduction within ECM and stromal co-culture contexts.
+      </p>
+      <ul>
+        <li><strong>Methods:</strong> microfabrication, perfusion control, ECM design, human vascular co-culture</li>
+        <li><strong>Representative output:</strong> Advanced Functional Materials (cover feature)</li>
+      </ul>
+
+      <!-- Upload a figure to: /assets/img/ecm_mv_chip.jpg -->
+      <img src="/assets/img/ecm_mv_chip.jpg" alt="ECM.MV.Chip" />
+      <p class="muted">Figure: ECM.MV.Chip enabling controlled shear + ECM microenvironment for vascular mechanobiology.</p>
+    </div>
+
+    <div class="card">
+      <h4>5) Autologous airway-on-chip for Down syndrome immune dysfunction</h4>
+      <p>
+        Developing an autologous iPSC-derived small-airway-on-chip integrating donor-matched epithelial, endothelial,
+        stromal, and immune components. Using matched disomic vs trisomic systems to study baseline immune hyper-responsiveness
+        and exaggerated inflammatory/viral responses, enabling therapeutic discovery pipelines.
+      </p>
+      <ul>
+        <li><strong>Methods:</strong> iPSC differentiation, immune-competent co-culture, controlled mechanics/transport, high-content profiling</li>
+        <li><strong>Representative outputs:</strong> organ-on-chip platform IP + manuscripts in preparation</li>
+      </ul>
+
+      <!-- Upload a figure to: /assets/img/iairway_chip.jpg -->
+      <img src="/assets/img/iairway_chip.jpg" alt="Autologous airway-on-chip" />
+      <p class="muted">Figure: Genetically defined, immune-competent airway-on-chip for mechanistic disease modeling and therapy testing.</p>
+    </div>
+
+    <div class="card">
+      <h4>Physics → Platforms → Therapeutics (workflow)</h4>
+      <ol>
+        <li><strong>Engineer</strong> controlled geometry/flow/matrix mechanics</li>
+        <li><strong>Perturb</strong> tissues (infection, cytokines, mechanics, drugs)</li>
+        <li><strong>Measure</strong> function (barrier, cilia, imaging) + multi-omics</li>
+        <li><strong>Infer</strong> actionable nodes with interpretable models</li>
+        <li><strong>Validate</strong> with on-chip perturbation experiments</li>
+      </ol>
+      <p class="muted">This section helps committees see a coherent “engine” rather than separate projects.</p>
+    </div>
+
+  </div>
+
+  <hr />
+
+  <h3>Collaboration interests</h3>
+  <ul>
+    <li>Pulmonary infection/inflammation and vascular dysfunction, including genetically defined conditions (e.g., trisomy 21)</li>
+    <li>Mechanobiology linking shear/curvature/transport to immune recruitment and amplification</li>
+    <li>Therapeutic discovery with perturbation datasets, multi-omics, and interpretable ML</li>
+  </ul>
+
+  <p class="muted">© 2026 Quoc Vo</p>
 </body>
 </html>
