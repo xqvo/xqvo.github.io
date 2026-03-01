@@ -44,3 +44,6 @@ img{ max-width: 100%; height: auto; border-radius: 12px; }
   .grid{ grid-template-columns: 1fr; }
   .cards{ grid-template-columns: 1fr; }
 }
+
+p, li { overflow-wrap: anywhere; }
+a { overflow-wrap: anywhere; }
