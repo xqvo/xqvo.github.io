@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }} - Research</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <h1>{{ page.title }}</h1>
+  {% if page.one_liner %}<p class="muted">{{ page.one_liner }}</p>{% endif %}
+
+  <p class="nav">
+    <a href="/about.html">About</a> |
+    <a href="/research.html">Research</a> |
+    <a href="/publications.html">Publications</a> |
+    <a href="/posts.html">Posts</a> |
+    <a href="/contact.html">Contact</a>
+  </p>
+
+  {% if page.image %}
+    <img src="{{ page.image }}" alt="{{ page.title }}">
+  {% endif %}
+
+  <hr />
+
+  <div>
+    {{ content }}
+  </div>
+
+  <hr />
+  <p><a href="/research.html">← Back to Research</a></p>
+</body>
+</html>
