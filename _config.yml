@@ -1,0 +1,5 @@
+title: Quoc Vo
+collections:
+  research:
+    output: true
+    permalink: /research/:name/
