@@ -1,4 +1,5 @@
 ---
+layout: research_item
 title: "ECM.MV.Chip — matrix-embedded circular microvasculature-on-chip"
 order: 40
 tags: ["Organs-on-chips", "Vascular mechanobiology", "ECM"]
