@@ -20,7 +20,7 @@ Developing an autologous iPSC-derived small-airway-on-chip integrating donor-mat
 - Microfabrication
 
 
-### Representative publications
+### Related publications
 - 
 
 Short description text here.
