@@ -22,7 +22,7 @@ img{ max-width: 100%; height: auto; border-radius: 12px; }
   display: grid;
   grid-template-columns: 220px 1fr;
   gap: 18px;
-  align-items: start;
+  align-items: center;
   margin-top: 10px;
 }
 
