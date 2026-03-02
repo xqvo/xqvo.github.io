@@ -9,11 +9,11 @@ one_liner: "Engineered a 3D circular, matrix-embedded microvasculature-on-chip t
 ---
 
 ### Why it matters
-Short paragraph.
+Conventional rectangular microfluidic models do not faitfully recapitulate physilogy of human vasculature, partly hampering their adaptation and application. 
 
 ### What I contributed
-- Bullet 1
-- Bullet 2
+- I developed the ECM.MV.Chip, a circular, extracellular matrix–embedded human microvasculature-on-chip, sustaining physiologically relevant shear stress distributions within a three-dimensional stromal matrix
+- This model enable spatially resolved interrogation of endothelial mechanotransduction under controlled flow
 
 ### Methods
 - Microfabrication
