@@ -49,18 +49,20 @@ p, li { overflow-wrap: anywhere; }
 a { overflow-wrap: anywhere; }
 
 figure {
-  margin: 24px 0;
+  margin: 22px 0;
   text-align: center;
 }
 
 figure img {
   max-width: 100%;
+  height: auto;
   border-radius: 12px;
 }
 
 figcaption {
   margin-top: 8px;
-  font-size: 0.9rem;
+  font-size: 0.92rem;
   color: #555;
   font-style: italic;
+  line-height: 1.4;
 }
