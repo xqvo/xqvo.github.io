@@ -9,12 +9,11 @@ one_liner: "Engineering Next-Generation Fully Autologous Small Airway-on-a-Chip 
 
 Short description text here.
 
-<figure>
-  <img src="/assets/img/iairway_chip.jpg" alt="iAirway-Chip platform">
-  <figcaption>
-    Figure 1. iAirway-Chip, fully autologous, iPSC-derived, multicellular Next-generation small airway-on-a-chip.
-  </figcaption>
-</figure>
+{% include figure.html 
+   src="/assets/img/iairway_chip.jpg"
+   alt="iAirway-Chip platform"
+   caption="Figure 1. iAirway-Chip, fully autologous, iPSC-derived, multicellular Next-generation small airway-on-a-chip."
+%}
 
 
 ### Why it matters
