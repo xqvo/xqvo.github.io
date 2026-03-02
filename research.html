@@ -1,3 +1,8 @@
+---
+layout: default
+title: Research
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,6 +26,7 @@
 
   <h2>Research</h2>
 
+  <!-- ✅ KEEP YOUR OVERVIEW HERE -->
   <p class="lead">
     My research asks: <strong>How can quantitative soft-matter physics and transport phenomena be used to build predictive models of human tissue function and disease?</strong>
     I integrate interfacial mechanics, imaging/analysis, and microphysiological systems engineering to control geometry, flow, matrix mechanics, and transport—then connect these variables to inflammation, immune dynamics, and therapeutic response.
@@ -38,98 +44,36 @@
 
   <hr />
 
+  <!-- ✅ KEEP YOUR PROGRAM STRUCTURE HERE -->
   <h3>Program structure</h3>
   <ul>
     <li><strong>Core science:</strong> mechanobiology at physiological interfaces — quantify how shear, curvature, matrix compliance, and transport shape tissue behavior.</li>
     <li><strong>Translational engine:</strong> predictive pulmonary platforms for therapy discovery — autologous, immune-competent airway models coupled to functional readouts and multi-omic profiling.</li>
   </ul>
 
+  <hr />
+
+  <!-- ✅ ONLY THIS SECTION BECOMES “ADAPTIVE” -->
   <h3>Selected projects</h3>
 
   <div class="cards">
+    {% assign items = site.research | sort: "order" %}
+    {% for item in items %}
+      <div class="card">
+        <h4><a href="{{ item.url }}">{{ item.title }}</a></h4>
+        {% if item.one_liner %}<p>{{ item.one_liner }}</p>{% endif %}
 
-    <div class="card">
-      <h4>1) Electrowetting contact-line dynamics (PhD)</h4>
-      <p>
-        Quantified how microscopic contact-line dissipation controls macroscopic droplet transport under electrowetting,
-        providing design rules for robust droplet motion and vertical detachment in digital microfluidics.
-      </p>
-      <ul>
-        <li><strong>Methods:</strong> high-speed imaging, image analysis, modeling</li>
-        <li><strong>Representative outputs:</strong> PRL / PRE / Sci Rep</li>
-      </ul>
-      <p class="muted">Add figure: droplet transport/jumping + 1-line caption (optional).</p>
-    </div>
+        {% if item.tags %}
+          <p class="muted">
+            {% for t in item.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+          </p>
+        {% endif %}
 
-    <div class="card">
-      <h4>2) Active elimination of lubricated air films (dielectrophoresis)</h4>
-      <p>
-        Developed a spatially periodic dielectrophoretic strategy to eliminate thin air films trapped between a liquid and a solid,
-        enabling bubble-free casting/coating and improving interfacial heat transfer performance.
-      </p>
-      <ul>
-        <li><strong>Methods:</strong> periodic DEP fields, high-speed + ultra-fast imaging</li>
-        <li><strong>Representative outputs:</strong> Nat. Commun. / Thermal Science & Engineering Progress</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h4>3) Fast wetting of soft solids: unsteady ridge formation</h4>
-      <p>
-        Built high-speed interferometric imaging to resolve early-time wetting ridge dynamics on compliant substrates,
-        revealing deformation anisotropy and its consequences for wetting kinetics and stick–slip behaviors.
-      </p>
-      <ul>
-        <li><strong>Methods:</strong> phase-shifting interferometry, ultra-high-speed imaging</li>
-        <li><strong>Representative outputs:</strong> JCIS + optical metrology/patent work</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h4>4) ECM.MV.Chip — matrix-embedded circular microvasculature-on-chip</h4>
-      <p>
-        Engineered a 3D circular, matrix-embedded microvasculature-on-chip that sustains physiologically relevant shear distributions,
-        enabling controlled studies of endothelial mechanotransduction within ECM and stromal co-culture contexts.
-      </p>
-      <ul>
-        <li><strong>Methods:</strong> microfabrication, perfusion control, ECM design, human vascular co-culture</li>
-        <li><strong>Representative output:</strong> Advanced Functional Materials (cover feature)</li>
-      </ul>
-
-      <!-- Upload a figure to: /assets/img/ecm_mv_chip.jpg -->
-      <img src="/assets/img/ecm_mv_chip.jpg" alt="ECM.MV.Chip" />
-      <p class="muted">Figure: ECM.MV.Chip enabling controlled shear + ECM microenvironment for vascular mechanobiology.</p>
-    </div>
-
-    <div class="card">
-      <h4>5) Autologous airway-on-chip for Down syndrome immune dysfunction</h4>
-      <p>
-        Developing an autologous iPSC-derived small-airway-on-chip integrating donor-matched epithelial, endothelial,
-        stromal, and immune components. Using matched disomic vs trisomic systems to study baseline immune hyper-responsiveness
-        and exaggerated inflammatory/viral responses, enabling therapeutic discovery pipelines.
-      </p>
-      <ul>
-        <li><strong>Methods:</strong> iPSC differentiation, immune-competent co-culture, controlled mechanics/transport, high-content profiling</li>
-        <li><strong>Representative outputs:</strong> organ-on-chip platform IP + manuscripts in preparation</li>
-      </ul>
-
-      <!-- Upload a figure to: /assets/img/iairway_chip.jpg -->
-      <img src="/assets/img/iairway_chip.jpg" alt="Autologous airway-on-chip" />
-      <p class="muted">Figure: Genetically defined, immune-competent airway-on-chip for mechanistic disease modeling and therapy testing.</p>
-    </div>
-
-    <div class="card">
-      <h4>Physics → Platforms → Therapeutics (workflow)</h4>
-      <ol>
-        <li><strong>Engineer</strong> controlled geometry/flow/matrix mechanics</li>
-        <li><strong>Perturb</strong> tissues (infection, cytokines, mechanics, drugs)</li>
-        <li><strong>Measure</strong> function (barrier, cilia, imaging) + multi-omics</li>
-        <li><strong>Infer</strong> actionable nodes with interpretable models</li>
-        <li><strong>Validate</strong> with on-chip perturbation experiments</li>
-      </ol>
-      <p class="muted">This section helps committees see a coherent “engine” rather than separate projects.</p>
-    </div>
-
+        {% if item.image %}
+          <img src="{{ item.image }}" alt="{{ item.title }}">
+        {% endif %}
+      </div>
+    {% endfor %}
   </div>
 
   <hr />
@@ -144,4 +88,3 @@
   <p class="muted">© 2026 Quoc Vo</p>
 </body>
 </html>
-
