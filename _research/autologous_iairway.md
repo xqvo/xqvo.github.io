@@ -31,3 +31,15 @@ Developing an autologous iPSC-derived small-airway-on-chip integrating donor-mat
    alt="iAirway-Chip platform"
    caption="Figure 1. iAirway-Chip, fully autologous, iPSC-derived, multicellular Next-generation small airway-on-a-chip."
 %}
+
+<div class="figure-grid">
+  <figure>
+    <img src="/assets/img/iairway_chip_layout.jpg" alt="Layout">
+    <figcaption>Chip layout and compartments.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/iairway_chip_readouts.jpg" alt="Readouts">
+    <figcaption>Functional readouts used for phenotyping.</figcaption>
+  </figure>
+</div>
