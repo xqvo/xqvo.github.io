@@ -1,11 +1,14 @@
 ---
 layout: research_item
 title: "ECM.MV.Chip — matrix-embedded circular microvasculature-on-chip"
-order: 40
-tags: ["Organs-on-chips", "Vascular mechanobiology", "ECM"]
-image: /assets/img/ecm_mv_chip.jpg
+order: 2
+
+
 one_liner: "Engineered a 3D circular, matrix-embedded microvasculature-on-chip that sustains physiologically relevant shear distributions,
         enabling controlled studies of endothelial mechanotransduction within ECM and stromal co-culture contexts."
+image: /assets/img/ecm_mv_chip.jpg  
+caption: 'ECM.MV.Chip - featured by <i>Advanced Functional Materials</i>
+tags: ["Organs-on-chips", "Vascular mechanobiology", "ECM"]
 ---
 
 ### Why it matters
