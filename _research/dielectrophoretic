@@ -13,7 +13,7 @@ A central challenge in liquid–solid interactions is the formation of a thin lu
 Building on this concept, subsequent studies further explored the dynamics of liquid spreading under non-uniform electric fields. Experiments on droplets impacting dielectrowetting substrates revealed that the electric field can dynamically tune wetting behavior and spreading dynamics without modifying surface chemistry or texture. In particular, the applied field enhances droplet spreading and introduces anisotropic wetting responses governed by the electrode geometry, providing an active mechanism to manipulate liquid motion at solid interfaces. These insights established a broader framework for controlling liquid–solid interactions through electric-field-induced interfacial stresses rather than passive surface modification.
 
 {% include figure.html 
-   src="/assets/img/cooling.png"
+   src="/assets/img/Cooling.png"
    alt="Electronic cooling platform"
    caption="Figure 1. Cooling enhancement under dielectrophoretic effect. After applying the voltage, temperature of a hot surface reduces from over 145C to below 60C within 800 ms."
 %}
