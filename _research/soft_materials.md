@@ -1,6 +1,6 @@
 ---
 layout: research_item
-title: "Soft materials: viscoelastic response, softwetting dynamics, and applications"
+title: "Soft materials: viscoelastic response, softwetting dynamics, and bio-inspired self-cleaning, anti-fouling surfaces"
 order: 3
 one_liner: "Eludidating viscoelastic response at unprecedented time and length scale; explaining short-time dynamics of softwetting; and applying these physical principles to design and fabrication of bio-inspired self-cleaning, anti-fouling surfaces for wearable electronics"
 image: /assets/img/soft_materials.jpg
