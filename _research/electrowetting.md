@@ -24,24 +24,3 @@ Additional studies further explored phenomena including satellite droplet ejecti
 4.	Q. Vo, and T. Tran, Dynamics of Droplets under Electrowetting Effect with Voltages Exceeding the Contact Angle Saturation Threshold, Journal of Fluid Mechanics 925, A19, 2021, (co-corresponding author).
 5.	Q. Vo, and T. Tran, Droplet Ejection by Electrowetting Actuation, Applied Physics Letters 118, 16160, 2021, (co-corresponding author).
 6.	Q. Vo, and T. Tran, Droplet Jumping by Modulated Electrowetting, Journal of Fluid Mechanics 977, A24, 2023.
-
-Short description text here.
-
-{% include figure.html 
-   src="/assets/img/iairway_chip.jpg"
-   alt="iAirway-Chip platform"
-   caption="Figure 1. iAirway-Chip, fully autologous, iPSC-derived, multicellular Next-generation small airway-on-a-chip."
-%}
-
-<div class="figure-grid">
-  <figure>
-    <img src="/assets/img/iairway_chip_layout.jpg" alt="Layout">
-    <figcaption>Chip layout and compartments.</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/assets/img/iairway_chip_readouts.jpg" alt="Readouts">
-    <figcaption>Functional readouts used for phenotyping.</figcaption>
-  </figure>
-</div>
-
