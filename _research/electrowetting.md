@@ -2,7 +2,7 @@
 layout: research_item
 title: "Contact line dynamics of droplets actuated by electrowetting effect"
 order: 5
-one_liner: "Investigating contact line dynamics of droplets actuated by electrowetting."
+one_liner: "Mechanistic modeling and experimental characterization of electrowetting-driven droplet dynamics for programmable microfluidic actuation."
 image: /assets/img/electrowetting_header.jpg
 caption: "Capillary wave associated with fast spreading of droplets under electrowetting."
 tags: ["Electrowetting,", "Digital Microfluidics, ", "Droplet control, ", "Contact line dynamics"]
