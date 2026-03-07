@@ -1,7 +1,7 @@
 ---
 layout: research_item
 title: "Soft materials: viscoelastic response, softwetting dynamics, and applications"
-order: 1
+order: 3
 one_liner: "Eludidating viscoelastic response, softwetting dynamics and "
 image: /assets/img/iairway_chip.jpg
 caption: "In-developing progress"
