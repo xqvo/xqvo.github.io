@@ -2,7 +2,7 @@
 layout: research_item
 title: "Autologous Airway-on-chip for Down syndrome immune dysfunction modelling"
 order: 1
-one_liner: "Engineering Next-Generation Fully Autologous Small Airway-on-a-Chip (iAirway-Chip)"
+one_liner: "Engineering a fully autologous iPSC-derived airway-on-a-chip (iAirway-Chip) to model patient-specific pulmonary barrier function and inflammatory responses."
 image: /assets/img/iairway_chip.jpg
 caption: "Autologous iAirway-Chip integrating epithelial, endothelial, stromal, and immune compartments under controlled transport."
 tags: ["Organs-on-chips,", "Small Airway-on-a-Chip, ", "iPSCs, ", "Down Syndrome"]
