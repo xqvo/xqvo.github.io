@@ -1,1 +1,28 @@
+---
+layout: research_item
+title: "Electrohydrodynamic Control of Interfacial Films for Advanced Thermal and Fluidic Applications"
+order: 4
+one_liner: "Engineered electric-field-based methods to control trapped air films during liquid–solid interactions, enabling suppression of bubble entrapment and improved boiling heat transfer for advanced cooling technologies."
+image: /assets/img/dielectrophoretic_subfigure.png
+caption: "Air-film reconfiguration under spatially periodic dielectrophoretic force."
+tags: ["dielectrophoretic,", "electronic cooling, ", "splash suppression, ", "air film entrapment"]
+---
+
+A central challenge in liquid–solid interactions is the formation of a thin lubricating air film that becomes trapped when a liquid rapidly approaches a surface. This air layer can lead to undesirable phenomena such as bubble entrapment, droplet rebound, and splashing, which limit performance in processes ranging from coating and printing to heat transfer and cooling systems. To address this fundamental problem, we developed a novel electrohydrodynamic approach that actively mediates the air film using spatially patterned dielectrophoretic forces. In our Nature Communications study, we demonstrated that a substrate patterned with interdigitated electrodes can generate a spatially periodic electric field that exerts localized stresses on the liquid–air interface. These stresses deform the approaching liquid surface and induce controlled ruptures in the air layer, effectively splitting it into microscopic tunnels that facilitate rapid air drainage. This “divide-and-conquer” mechanism suppresses bubble entrapment and splashing during droplet impact and enables direct liquid–solid contact even under rapid impact conditions, representing a fundamentally new strategy to control interfacial dynamics during liquid deposition.
+
+Building on this concept, subsequent studies further explored the dynamics of liquid spreading under non-uniform electric fields. Experiments on droplets impacting dielectrowetting substrates revealed that the electric field can dynamically tune wetting behavior and spreading dynamics without modifying surface chemistry or texture. In particular, the applied field enhances droplet spreading and introduces anisotropic wetting responses governed by the electrode geometry, providing an active mechanism to manipulate liquid motion at solid interfaces. These insights established a broader framework for controlling liquid–solid interactions through electric-field-induced interfacial stresses rather than passive surface modification.
+
+{% include figure.html 
+   src="/assets/img/cooling.png"
+   alt="Electronic cooling platform"
+   caption="Figure 1. Cooling enhancement under dielectrophoretic effect. After applying the voltage, temperature of a hot surface reduces from over 145C to below 60C within 800 ms."
+%}
+
+We subsequently applied these principles to two-phase heat transfer, where vapor film formation during boiling severely limits cooling efficiency. By integrating interdigitated electrodes into boiling substrates, the dielectrophoretic force actively destabilizes the vapor layer and promotes rewetting of the surface. This mechanism suppresses film boiling and maintains efficient nucleate boiling even at high surface temperatures, resulting in substantial improvements in critical heat flux and overall heat dissipation capability. 
+
+Beyond electronic cooling, this electrically controlled mediation of vapor or air films has broad potential applications, including advanced thermal management systems, spray cooling technologies, additive manufacturing, coating and printing processes, and microfluidic manipulation of multiphase flows. Together, these studies establish electric-field-mediated control of interfacial films as a powerful and versatile approach for engineering liquid–solid interactions across a wide range of scientific and technological applications.
+
+### Related publications
+1.	Q. Vo, and T. Tran, Mediation of Lubricated Air Films using Spatially Periodic Dielectrophoretic Effect, Nature Communications 12, 4289, 2021.
+2.	TB Nguyen, Q. Vo, X Shang, F Buang, T Tran, Film Boiling Suppression and Boiling Heat Transfer Enhancement by Dielectrophoretic Effect, Thermal Science and Engineering Progress 40, 101796, 2023.
 
