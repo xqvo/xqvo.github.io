@@ -2,10 +2,10 @@
 layout: research_item
 title: "Soft materials: viscoelastic response, softwetting dynamics, and applications"
 order: 3
-one_liner: "Eludidating viscoelastic response, softwetting dynamics and "
-image: /assets/img/iairway_chip.jpg
-caption: "In-developing progress"
-tags: ["Organs-on-chips,", "Small Airway-on-a-Chip, ", "iPSCs, ", "Down Syndrome"]
+one_liner: "Eludidating viscoelastic response at unprecedented time and length scale; explaining short-time dynamics of softwetting; and applying these physical principles to design and fabrication of bio-inspired self-cleaning, anti-fouling surfaces for wearable electronics"
+image: /assets/img/soft_materials.jpg
+caption: "Elucidating stick-slip behaviors of droplet on soft surfaces at on-set of wetting."
+tags: ["bio-inspired self-cleaning,", "anti-fouling, ", "soft surfaces, ", "wetting ridge, ", "wearable electronics"]
 ---
 
 This research program investigates how soft materials respond to liquid forces across extremely short time scales, revealing how viscoelastic deformation influences dynamic wetting phenomena. Using high-speed interferometry and high-resolution imaging, we studied how soft substrates deform when interacting with rapidly spreading or impacting droplets. These experiments showed that soft solids exhibit multiple dynamical responses across different time scales, from ultrafast visco-capillary deformation to slower viscoelastic relaxation. Direct measurements of the early-stage formation of wetting ridges—the microscopic deformation created where a liquid meets a soft surface—revealed that the ridge initially grows anisotropically and is governed by competing elastic, viscous, and capillary forces. These findings provide quantitative insight into how soft materials deform under transient interfacial stresses and establish predictive frameworks for understanding soft wetting dynamics [1,2].
